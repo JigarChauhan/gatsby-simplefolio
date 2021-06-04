@@ -48,20 +48,12 @@ const About = () => {
                 <div className="about-wrapper__info-text">
                   <ul>
                   <li>{ 'Designing, building and maintaining Websites.' }</li>
+                  <li>{ 'Working Knowledge of WordPress/WordPress Maintenance Service/PHP/MySQL.' }</li>
+                  <li>{ 'Extensive knowledge of HTML, CSS, JavaScript, Bootstrap, Open Source and other CSS Frameworks.' }</li>
+                  <li>{ 'Customize themes for WordPress, Magento 2' }</li>
                   </ul>
                 </div>
-                {resume && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resume}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
+                
               </div>
             </Fade>
           </Col>
